@@ -1,0 +1,33 @@
+{
+  "name": "typewise-semver",
+  "version": "0.0.0",
+  "description": "Structure semver values as arrays which sort typewise with correct semver sort semantics",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deanlandolt/typewise-semver.git"
+  },
+  "keywords": [
+    "bytewise",
+    "typewise",
+    "semver",
+    "sort"
+  ],
+  "author": "Dean Landolt <dean@deanlandolt.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deanlandolt/typewise-semver/issues"
+  },
+  "homepage": "https://github.com/deanlandolt/typewise-semver#readme",
+  "devDependencies": {
+    "bytewise-core": "^1.2.1",
+    "faucet": "0.0.1",
+    "tape": "^4.0.0"
+  },
+  "dependencies": {
+    "semver": "^4.3.6"
+  }
+}
